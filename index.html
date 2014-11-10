@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html ng-app="ngGlam" ng-controller="AppCtrl">
+  <head>
+    <title ng-bind="pageTitle"></title>
+
+   
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font awesome from BootstrapCDN -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+
+    <!-- compiled CSS -->
+    <link rel="stylesheet" type="text/css" href="site/ngbp-0.3.2.css" />
+    <link href="site/css/3eye.min.css" rel="stylesheet" media="screen">
+    <!-- compiled JavaScript -->
+    <script type="text/javascript" src="site/vendor/angular/angular.js"></script>
+    <script type="text/javascript" src="site/vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="site/vendor/placeholders/angular-placeholders-0.0.1-SNAPSHOT.min.js"></script>
+    <script type="text/javascript" src="site/vendor/angular-ui-router/release/angular-ui-router.js"></script>
+    <script type="text/javascript" src="site/vendor/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="site/vendor/scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="site/vendor/scripts/jquery.mobile-events.min.js"></script>
+    <script type="text/javascript" src="site/vendor/scripts/holder.js"></script>
+    <script type="text/javascript" src="site/vendor/scripts/jquery.lazyload.min.js"></script>
+    <script type="text/javascript" src="site/vendor/scripts/velocity.min.js"></script>
+    <script type="text/javascript" src="site/vendor/scripts/velocity.ui.min.js"></script>
+    <script type="text/javascript" src="site/vendor/scripts/jquery.bpopup.min.js"></script>
+    <script type="text/javascript" src="site/vendor/scripts/init.js"></script>
+    <script type="text/javascript" src="site/src/app/about/about.js"></script>
+    <script type="text/javascript" src="site/src/app/app.js"></script>
+    <script type="text/javascript" src="site/src/app/faq/faq.js"></script>
+    <script type="text/javascript" src="site/src/app/home/home.js"></script>
+    <script type="text/javascript" src="site/src/common/plusOne/plusOne.js"></script>
+    <script type="text/javascript" src="site/templates-common.js"></script>
+    <script type="text/javascript" src="site/templates-app.js"></script>
+        <!--
+          _______   ___            __       ___      ___ 
+         /" _   "| |"  |          /""\     |"  \    /"  |
+        (: ( \___) ||  |         /    \     \   \  //   |
+         \/ \      |:  |        /' /\  \    /\\  \/.    |
+         //  \ ___  \  |___    //  __'  \  |: \.        |
+        (:   _(  _|( \_|:  \  /   /  \\  \ |.  \    /:  |
+         \_______)  \_______)(___/    \___)|___|\__/|___|                            
+
+        thrid eye site by #SeaCloud9
+        -->
+
+    <!-- it's stupid to have to load it here, but this is for the +1 button -->
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+      { "parsetags": "explicit" }
+    </script>
+  </head>
+  <body class='3eyeBody'>
+    <div class="hero-unit">
+       <header class="3eyeBG">
+          
+
+          <div class="dWaraper">
+            <div class="glHdrTxt">
+            <h2><br/>
+              Third Eye</h2>
+          </div>
+           
+
+             </div>
+             <div class="sourceBtnContainer"><a href="https://github.com/tparisi/glam/zipball/master" class=" navbar-brand logoLnk">Download</a>
+            <a href="https://github.com/tparisi/glam" class=" btn-github navbar-brand logoLnk" target="blank"><span class="icon"></span>View on GitHub</a></div>
+          </header>
+    </div>
+    <div class="container">
+            <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="navbar-header">
+            <a class="navbar-brand logoLnk" >Third Eye </a>
+
+            <a class="demoLnk navbar-brand logoLnk" href="#featured"  > Demos </a>
+            <a class="demoLnk navbar-brand logoLnk"  href="#examples" > Examples </a>
+            <a class="demoLnk navbar-brand logoLnk"  href="#about" > About </a>
+            <a class="demoLnk navbar-brand logoLnk"  href="#faq" > FAQ </a>
+
+
+            <button type="button" class="navbar-toggle positionRelative" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+              <div id='selectmenuContent'>
+                <select>
+                  <option value="glamcubeanimated">
+                    About
+                  </option>
+                  <option value="bubblepop">
+                    Contact
+                  </option>
+                </select>
+              </div>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse" id="menuContent">
+            <ul class="nav navbar-nav">
+              <li><a href='#glamcubeanimated'>About</a></li>
+              <li><a href='#bubblepop'>Contact</a></li>
+              <li class="active"><a href='#' >Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="container-fluid">
+          Current viewport width:<span id="monitor"></span>
+        </div>
+       
+
+        <div class="container-fluid">
+          <h2 style="display:none">Third Eye</h2>
+          
+          <section id="downloads">
+            <a href="https://github.com/tparisi/glam/zipball/master" class="btn">Download as .zip</a>
+            <a href="https://github.com/tparisi/glam/tarball/master" class="btn">Download as .tar.gz</a>
+            <a href="https://github.com/tparisi/glam" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+          </section>
+        </div>
+      </header>
+    </div>
+
+    <div class="container" ui-view="main"></div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <ul class="social">
+            <li><a target="_blank" href="http://gplus.to/glam"><i class="fa fa-google-plus-sign"></i></a></li>
+            <li><a target="_blank" href="http://twitter.com/glam"><i class="fa fa-twitter-sign"></i></a></li>
+            <li><a target="_blank" href="http://linkedin.com/in/glam"><i class="fa fa-linkedin-sign"></i></a></li>
+            <li><a target="_blank" href="http://github.com/tparisi/glam"><i class="fa fa-github-sign"></i></a></li>
+          </ul>
+          
+        </div>
+      </div>
+       <div class="popupContainer" style="position:relative">
+      <div class='popup display0'>
+      </div>
+      </div>
+    </footer>
+  </body>
+</html>

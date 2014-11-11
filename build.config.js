@@ -72,11 +72,8 @@ module.exports = {
       'vendor/scripts/jquery.min.js',
       'vendor/scripts/bootstrap.min.js',
       'vendor/scripts/jquery.mobile-events.min.js',
-      'vendor/scripts/holder.js',
-      'vendor/scripts/jquery.lazyload.min.js',
       'vendor/scripts/velocity.min.js',
       'vendor/scripts/velocity.ui.min.js',
-      'vendor/scripts/jquery.bpopup.min.js',
       'vendor/scripts/init.js'      
     ],
     css: [

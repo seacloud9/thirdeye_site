@@ -163,7 +163,7 @@ angular.module("home/home.tpl.html", []).run(["$templateCache", function($templa
     "<div class=\"row\">\n" +
     "<div class=\"bxSizing\">\n" +
     "\n" +
-    "  <h1 class=\"page-header\">\n" +
+    "  <h1 class=\"page-header\" id=\"about\">\n" +
     "    About Third Eye\n" +
     "  </h1>\n" +
     "  <p class=\"p17\">\n" +

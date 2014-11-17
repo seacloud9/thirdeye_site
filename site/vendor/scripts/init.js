@@ -111,7 +111,7 @@ _initGlam = function(){
         $('html').velocity("scroll", { duration: 1500, easing: "easeInSine", offset: $($(this).attr('href')).offset().top - 55  });
          });
 
-        $(".col-md-3 div").velocity("transition.slideUpBigIn", { complete: function(){
+        $(".col-md-4 div").velocity("transition.slideUpBigIn", { complete: function(){
             $("img").lazyload({effect:'fadeIn'});
         } });
         

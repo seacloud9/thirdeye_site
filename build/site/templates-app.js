@@ -158,53 +158,19 @@ angular.module("faq/faq.tpl.html", []).run(["$templateCache", function($template
 
 angular.module("home/home.tpl.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("home/home.tpl.html",
-    "<!--  <section class=\"row\" id=\"featured\">\n" +
-    "\n" +
-    "        <div class=\"col-sm-6 col-md-4\">\n" +
-    "          <div class=\"thumbnail\" id=\"glamcubeanimated\" >\n" +
-    "            <div class=\"imgT\">\n" +
-    "              <div class=\"type\">Featured Demo</div>\n" +
-    "            <img class='lazy' data-original=\"site/images/demo/glamcubeanimated.jpg\" data-src=\"holder.js/300x300/#000:#fff/text:glam/glam\" alt=\"glamcube\">\n" +
-    "            </div>\n" +
-    "            <div class=\"caption\">\n" +
-    "              <h3  class=\"Uppercase\">Photo Cube</h3>\n" +
-    "              <p>Basic Demo - Textured cube with CSS animations.</p>\n" +
-    "            </div>\n" +
-    "            <a data-url='demos/glamcubeanimated.html' class=\"btn btn-glam\" role=\"button\">View</a> <a data-source='glamcubeanimated'  class=\"btn btn-glam\" role=\"button\">Source</a>\n" +
-    "          </div>\n" +
-    "        </div>\n" +
     "\n" +
     "\n" +
-    "        <div class=\"col-sm-6 col-md-4\">\n" +
-    "          <div class=\"thumbnail\" id=\"glamcubeanimated\" >\n" +
-    "            <div class=\"imgT\">\n" +
-    "              <div class=\"type\">Featured Demo</div>\n" +
-    "            <img class='lazy' data-original=\"site/images/demo/glamcubeanimated.jpg\" data-src=\"holder.js/300x300/#000:#fff/text:glam/glam\" alt=\"glamcube\">\n" +
-    "            </div>\n" +
-    "            <div class=\"caption\">\n" +
-    "              <h3  class=\"Uppercase\">Photo Cube</h3>\n" +
-    "              <p>Basic Demo - Textured cube with CSS animations.</p>\n" +
-    "            </div>\n" +
-    "            <a data-url='demos/glamcubeanimated.html' class=\"btn btn-glam\" role=\"button\">View</a> <a data-source='glamcubeanimated'  class=\"btn btn-glam\" role=\"button\">Source</a>\n" +
-    "          </div>\n" +
-    "        </div>\n" +
+    "<div class=\"row\">\n" +
+    "<div class=\"bxSizing\">\n" +
     "\n" +
-    "        <div class=\"col-sm-6 col-md-4\">\n" +
-    "          <div class=\"thumbnail\" id=\"glamcubeanimated\" >\n" +
-    "            <div class=\"imgT\">\n" +
-    "              <div class=\"type\">Featured Demo</div>\n" +
-    "            <img class='lazy' data-original=\"site/images/demo/glamcubeanimated.jpg\" data-src=\"holder.js/300x300/#000:#fff/text:glam/glam\" alt=\"glamcube\">\n" +
-    "            </div>\n" +
-    "            <div class=\"caption\">\n" +
-    "              <h3  class=\"Uppercase\">Photo Cube</h3>\n" +
-    "              <p>Basic Demo - Textured cube with CSS animations.</p>\n" +
-    "            </div>\n" +
-    "            <a data-url='demos/glamcubeanimated.html' class=\"btn btn-glam\" role=\"button\">View</a> <a data-source='glamcubeanimated'  class=\"btn btn-glam\" role=\"button\">Source</a>\n" +
-    "          </div>\n" +
-    "        </div>\n" +
+    "  <h1 class=\"page-header\">\n" +
+    "    About Third Eye\n" +
+    "  </h1>\n" +
+    "  <p class=\"p17\">\n" +
+    "Third Eye is developing open tools and technologies for creating and publishing virtual reality experiences.</p><p class=\"p17\">We believe that the future of VR is in the open web: browser-based experiences that users can access with a hyperlink, developed with HTML5, WebGL and JavaScript, and published in the cloud.</p><p class=\"p17\">Our first product, GLAM, is an open-source library for building 3D web applications. GLAM allows developers to quickly create Oculus Rift and Cardboard VR apps using markup, CSS and an easy-to-use JavaScript framework for programming WebGL and Three.js objects and behaviors. For more information on GLAM, visit <a href=“http://www.glamjs.org/“>glamjs</a></p>\n" +
+    "</div>\n" +
+    "</div>\n" +
     "\n" +
     "\n" +
-    "\n" +
-    "</section>\n" +
-    " -->");
+    "");
 }]);

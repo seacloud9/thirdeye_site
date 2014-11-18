@@ -7,6 +7,18 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
+.glamUp1 a, .glamUp2 a, .glamUp1 a:active, .glamUp2 a:active, .glamUp1 a:hover, .glamUp2 a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+.glamUp1{
+    position:absolute;bottom:5px;left:5px; z-index:9; color: #fff; font-size: 29px;
+}
+
+.glamUp2{
+    position:absolute;bottom:5px;right:5px; z-index:9; color: #fff; font-size: 29px;
+}
 
 body {
     margin: 0;
@@ -188,6 +200,9 @@ table {
 td,th {
     padding: 0;
 }
+
+
+
 
 @media print {
     * {
@@ -1586,9 +1601,41 @@ pre code {
     margin-left: auto;
 }
 
-@media (min-width:768px) {
+@media (max-width:768px) {
     .container {
         width: 750px;
+    }
+
+    .glamUp1{
+    position:absolute;bottom:5px;left:5px; z-index:9; color: #fff; font-size: 23px;
+    }
+
+     .glamUp2{
+    position:absolute;bottom:5px;right:5px; z-index:9; color: #fff; font-size: 23px;
+    }
+}
+
+
+@media (max-width:480px) {
+
+    .glamUp1{
+    position:absolute;bottom:5px;left:5px; z-index:9; color: #fff; font-size: 14px;
+    }
+
+     .glamUp2{
+    position:absolute;bottom:5px;right:5px; z-index:9; color: #fff; font-size: 14px;
+    }
+}
+
+
+@media (min-width:320px) {
+
+    .glamUp1{
+    position:absolute;bottom:5px;left:5px; z-index:9; color: #fff; font-size: 14px;
+    }
+
+     .glamUp2{
+    position:absolute;bottom:5px;right:5px; z-index:9; color: #fff; font-size: 14px;
     }
 }
 
@@ -7851,5 +7898,7 @@ body {
 .container .text-muted {
   margin: 20px 0;
 }
+
+
 
 /* glam css end */

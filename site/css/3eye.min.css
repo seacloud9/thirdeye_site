@@ -13,11 +13,11 @@
 }
 
 .glamUp1{
-    position:absolute;bottom:5px;left:5px; z-index:9; color: #fff; font-size: 29px;
+    position:absolute;bottom:5px;left:7px; z-index:9; color: #fff; font-size: 29px;
 }
 
 .glamUp2{
-    position:absolute;bottom:5px;right:5px; z-index:9; color: #fff; font-size: 29px;
+    position:absolute;bottom:5px;right:7px; z-index:9; color: #fff; font-size: 29px;
 }
 
 body {
@@ -1607,11 +1607,11 @@ pre code {
     }
 
     .glamUp1{
-    position:absolute;bottom:5px;left:5px; z-index:9; color: #fff; font-size: 23px;
+    position:absolute;bottom:5px;left:7px; z-index:9; color: #fff; font-size: 23px;
     }
 
      .glamUp2{
-    position:absolute;bottom:5px;right:5px; z-index:9; color: #fff; font-size: 23px;
+    position:absolute;bottom:5px;right:7px; z-index:9; color: #fff; font-size: 23px;
     }
 }
 
@@ -1619,23 +1619,23 @@ pre code {
 @media (max-width:480px) {
 
     .glamUp1{
-    position:absolute;bottom:5px;left:5px; z-index:9; color: #fff; font-size: 14px;
+    position:absolute;bottom:5px;left:7px; z-index:9; color: #fff; font-size: 14px;
     }
 
      .glamUp2{
-    position:absolute;bottom:5px;right:5px; z-index:9; color: #fff; font-size: 14px;
+    position:absolute;bottom:5px;right:7px; z-index:9; color: #fff; font-size: 14px;
     }
 }
 
 
-@media (min-width:320px) {
+@media (max-width:320px) {
 
     .glamUp1{
-    position:absolute;bottom:5px;left:5px; z-index:9; color: #fff; font-size: 14px;
+    position:absolute;bottom:5px;left:7px; z-index:9; color: #fff; font-size: 14px;
     }
 
      .glamUp2{
-    position:absolute;bottom:5px;right:5px; z-index:9; color: #fff; font-size: 14px;
+    position:absolute;bottom:5px;right:7px; z-index:9; color: #fff; font-size: 14px;
     }
 }
 
@@ -6991,7 +6991,7 @@ li a {
 .thrid_eyeBG {
     float: left;
     width: 100%;
-    background-image: url('/site/images/bg.svg');
+    background-image: url('/site/images/bg.jpg');
     opacity: 1;
     background-size: cover;
     background-position-y: bottom;

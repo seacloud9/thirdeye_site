@@ -10,13 +10,29 @@
 
     <!-- font awesome from BootstrapCDN -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic' rel='stylesheet' type='text/css'>
 
-    <!-- compiled CSS --><% styles.forEach( function ( file ) { %>
-    <link rel="stylesheet" type="text/css" href="site/<%= file %>" /><% }); %>
+    <!-- compiled CSS -->
+    <link rel="stylesheet" type="text/css" href="site/ngbp-0.3.2.css" />
     <link href="site/css/3eye.min.css" rel="stylesheet" media="screen">
-    <!-- compiled JavaScript --><% scripts.forEach( function ( file ) { %>
-    <script type="text/javascript" src="site/<%= file %>"></script><% }); %>
+    <!-- compiled JavaScript -->
+    <script type="text/javascript" src="site/vendor/angular/angular.js"></script>
+    <script type="text/javascript" src="site/vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="site/vendor/placeholders/angular-placeholders-0.0.1-SNAPSHOT.min.js"></script>
+    <script type="text/javascript" src="site/vendor/angular-ui-router/release/angular-ui-router.js"></script>
+    <script type="text/javascript" src="site/vendor/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="site/vendor/scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="site/vendor/scripts/jquery.mobile-events.min.js"></script>
+    <script type="text/javascript" src="site/vendor/scripts/velocity.min.js"></script>
+    <script type="text/javascript" src="site/vendor/scripts/velocity.ui.min.js"></script>
+    <script type="text/javascript" src="site/vendor/scripts/init.js"></script>
+    <script type="text/javascript" src="site/src/app/about/about.js"></script>
+    <script type="text/javascript" src="site/src/app/app.js"></script>
+    <script type="text/javascript" src="site/src/app/faq/faq.js"></script>
+    <script type="text/javascript" src="site/src/app/home/home.js"></script>
+    <script type="text/javascript" src="site/src/common/plusOne/plusOne.js"></script>
+    <script type="text/javascript" src="site/templates-common.js"></script>
+    <script type="text/javascript" src="site/templates-app.js"></script>
         <!--
  ______   __  __     __     ______     _____     ______     __  __     ______    
 /\__  _\ /\ \_\ \   /\ \   /\  == \   /\  __-.  /\  ___\   /\ \_\ \   /\  ___\   
@@ -34,13 +50,28 @@
   <body class='glamBody' >
     <div class="hUnit" style="position:relative;">
       <img src="site/images/bg.jpg" style="float:left; width:100%; margin-top: 25px;"/>
-      <div class="glamUp1">
+
+      <!-- <div class="hTxt" style="position:absolute; z-index:999; right: 10%; top: 60%; display:none">
+          <h1 style="color:#fff; font-size:140%">Third Eye</h1>
+          <div style="float:right; width:100%; color: #cacaca; font-size:100%">
+            Create.
+          </div>
+          <div style="float:right; width:100%; color: #cacaca; font-size:100%">
+            Share.
+          </div>
+          <div style="float:right; width:100%; color: #cacaca; font-size:100%">
+            Experience.
+          </div>
+
+      </div> -->
+
+      <div class="glamUp1 thirdEyeLnksVis">
         <a href="https://www.kickstarter.com/projects/dodocase/diy-virtual-reality-open-source-future" target="_blank">
         kick<span style="color:#2bde73">starter</span>
       </a>
       </div>
 
-      <div class="glamUp2">
+      <div class="glamUp2 thirdEyeLnksVis">
         <a href="http://glamjs.org" target="_blank">
         visit the <span style="color:#c81100">GLAM</span> project page
       </a>
@@ -60,6 +91,8 @@
           <div class="navbar-header">
             <a class="navbar-brand logoLnk" > Third Eye </a>
             <a class="demoLnk navbar-brand logoLnk"  href="#about" > About </a>
+            <a class="navbar-brand logoLnk thirdEyeLnks"  href="https://www.kickstarter.com/projects/dodocase/diy-virtual-reality-open-source-future" target="_blank" > kick<span style="color:#2bde73">starter</span> </a>
+            <a class=" navbar-brand logoLnk thirdEyeLnks"  href="http://glamjs.org" target="_blank" > visit the <span style="color:#c81100">GLAM</span> project page </a>
             <a class="demoLnk navbar-brand logoLnk"  href="mailto:tparisi@gmail.com?Subject=Third%20Eye%20Inquiry" > Contact </a>
 
 

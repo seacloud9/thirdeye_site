@@ -7,6 +7,11 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
+
+.thirdEyeLnksVis{
+        display: none;
+}
+
 .glamUp1 a, .glamUp2 a, .glamUp1 a:active, .glamUp2 a:active, .glamUp1 a:hover, .glamUp2 a:hover{
     color:#fff;
     text-decoration: none;
@@ -4119,6 +4124,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 
 .navbar-collapse {
+
     padding-right: 15px;
     padding-left: 15px;
     overflow-x: visible;
@@ -6522,6 +6528,17 @@ button.close {
     }
 }
 
+@media (max-width:689px) {
+    
+    .thirdEyeLnks{
+        display: none;
+    }
+
+    .thirdEyeLnksVis{
+        display: block;
+    }
+}
+
 @media (min-width:768px) and (max-width:991px) {
     .visible-sm {
         display: block!important;
@@ -6716,7 +6733,7 @@ button.close {
 body,.navbar {
     padding: 0;
     margin: 0;
-    font-family: 'Oswald',sans-serif;
+    font-family: 'PT Sans',sans-serif;
     color: #000;
     background: #fff;
 }
@@ -7898,7 +7915,23 @@ body {
 .container .text-muted {
   margin: 20px 0;
 }
+@media (min-width: 768px)
+{
+    .navbar-header
+    {
+        float: none;
+    }
 
+    .navbar-toggle
+    {
+        display: block;
+    }
+
+    .navbar-collapse.collapse
+    {
+        display: none !important;
+    }
+}
 
 
 /* glam css end */

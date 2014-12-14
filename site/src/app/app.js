@@ -2,7 +2,6 @@ angular.module( 'ngGlam', [
   'templates-app',
   'templates-common',
   'ngGlam.home',
-  'ngGlam.about',
   'ngGlam.faq',
   'ui.router'
 ])

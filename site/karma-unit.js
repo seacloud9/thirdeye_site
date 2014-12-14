@@ -19,8 +19,8 @@ module.exports = function ( karma ) {
       'vendor/scripts/velocity.min.js',
       'vendor/scripts/velocity.ui.min.js',
       'vendor/scripts/init.js',
-      'build/templates-app.js',
-      'build/templates-common.js',
+      'site/templates-app.js',
+      'site/templates-common.js',
       'vendor/angular-mocks/angular-mocks.js',
       
       'src/**/*.js',

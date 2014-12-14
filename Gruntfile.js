@@ -102,7 +102,7 @@ module.exports = function ( grunt ) {
         files: [
           { 
             src: [ '**' ],
-            dest: '<%= build_dir %>/site/',
+            dest: '<%= build_dir %>/',
             cwd: 'src/site',
             expand: true
           }
@@ -143,7 +143,7 @@ module.exports = function ( grunt ) {
         files: [
           {
             src: [ '**' ],
-            dest: '<%= compile_dir %>/site/',
+            dest: '<%= compile_dir %>/',
             cwd: '<%= build_dir %>/',
             expand: true
           }
@@ -182,7 +182,7 @@ module.exports = function ( grunt ) {
           '<%= html2js.common.dest %>', 
           'module.suffix' 
         ],
-        dest: '<%= compile_dir %>/site/<%= pkg.name %>-<%= pkg.version %>.js'
+        dest: '<%= compile_dir %>/<%= pkg.name %>-<%= pkg.version %>.js'
       }
     },
 
@@ -469,7 +469,7 @@ module.exports = function ( grunt ) {
        */
       assets: {
         files: [ 
-          'src/site/**/*'
+          'src/**/*'
         ],
         tasks: [ 'copy:build_app_assets', 'copy:build_vendor_assets' ]
       },
@@ -599,7 +599,7 @@ module.exports = function ( grunt ) {
       return file.replace( dirRE, '' );
     });
 
-    grunt.file.copy('src/index.html', this.data.dir + '/index.html', { 
+    grunt.file.copy('src/index.html', this.data.dir + '/../index.html', { 
       process: function ( contents, path ) {
         return grunt.template.process( contents, {
           data: {
